@@ -76,18 +76,17 @@ const handleMove = (source,target) => {
 
 const getPieceUnicode = (piece) => {
     const unicodePieces = {
-        K: "♔", // White King
-        Q: "♕", // White Queen
-        R: "♖", // White Rook
-        B: "♗", // White Bishop
-        N: "♘", // White Knight
-        P: "♙", // White Pawn
-        k: "♚", // Black King
-        q: "♛", // Black Queen
-        r: "♜", // Black Rook
-        b: "♝", // Black Bishop
-        n: "♞", // Black Knight
-        p: "\u2659"  // Black Pawn
+        K: "♔", 
+        Q: "♕", 
+        R: "♖", 
+        B: "♗", 
+        N: "♘",         P: "♙", 
+        k: "♚", 
+        q: "♛",
+        r: "♜",
+        b: "♝", 
+        n: "♞", 
+        p: "\u2659"  
       };
       return unicodePieces[piece.type] || "";
 }
